@@ -25,10 +25,4 @@ public class GlassFill : MonoBehaviour
             //amount = 1;
             amount = 0;
     }
-
-    private void OnParticleTrigger()
-    {
-        Debug.Log("Tur muestos");
-        fillBottle();
-    }
 }
