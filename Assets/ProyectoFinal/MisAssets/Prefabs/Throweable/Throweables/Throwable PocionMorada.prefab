@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 4711499595269573357}
   - component: {fileID: 4711499567699112853}
   - component: {fileID: 7744148942879431647}
+  - component: {fileID: -6772603465696259275}
+  - component: {fileID: 541301574476709137}
   m_Layer: 0
   m_Name: Throwable PocionMorada
   m_TagString: Untagged
@@ -283,6 +285,32 @@ MonoBehaviour:
   explodePartPrefab: {fileID: 1000011210241306, guid: 8a2487c189a464148aadc3af2effa7c8, type: 3}
   explodeCount: 10
   minMagnitudeToExplode: 1
+--- !u!114 &-6772603465696259275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4680387959748524613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c94c13185d3944e93fb9f8172f0e89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Morado
+--- !u!65 &541301574476709137
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4680387959748524613}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08, y: 0.10817641, z: 0.08548489}
+  m_Center: {x: 0, y: 0.0021638274, z: -0.0018364042}
 --- !u!1001 &3047459061307678558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -312,23 +340,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2960452919784091970, guid: 21827f61d660d0f42b9cbd1f80e22542, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0068448
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2960452919784091970, guid: 21827f61d660d0f42b9cbd1f80e22542, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0024452
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2960452919784091970, guid: 21827f61d660d0f42b9cbd1f80e22542, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.090934
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2960452919784091970, guid: 21827f61d660d0f42b9cbd1f80e22542, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96924067
+      value: 0.70724756
       objectReference: {fileID: 0}
     - target: {fileID: 2960452919784091970, guid: 21827f61d660d0f42b9cbd1f80e22542, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.2461149
+      value: -0.706966
       objectReference: {fileID: 0}
     - target: {fileID: 2960452919784091970, guid: 21827f61d660d0f42b9cbd1f80e22542, type: 3}
       propertyPath: m_LocalRotation.y
@@ -340,7 +368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2960452919784091970, guid: 21827f61d660d0f42b9cbd1f80e22542, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -28.495
+      value: -89.98
       objectReference: {fileID: 0}
     - target: {fileID: 2960452919784091970, guid: 21827f61d660d0f42b9cbd1f80e22542, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y

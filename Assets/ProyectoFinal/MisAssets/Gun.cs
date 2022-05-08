@@ -27,14 +27,11 @@ public class Gun : MonoBehaviour
     {
         if (interactable.attachedToHand != null)
         {
-            gameObject.GetComponent<Collider>().enabled = false;
             SteamVR_Input_Sources source = interactable.attachedToHand.handType;
 
             if (fireAction[source].stateDown)
                 Fire();
         }
-        else
-            gameObject.GetComponent<Collider>().enabled = true;
 
     }
 

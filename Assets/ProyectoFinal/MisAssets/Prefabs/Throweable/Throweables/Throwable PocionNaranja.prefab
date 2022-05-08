@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 4711499595269573357}
   - component: {fileID: 4711499567699112853}
   - component: {fileID: 7553882075033156346}
+  - component: {fileID: -4464850647038942680}
+  - component: {fileID: 4919054439456649003}
   m_Layer: 0
   m_Name: Throwable PocionNaranja
   m_TagString: Untagged
@@ -283,6 +285,32 @@ MonoBehaviour:
   explodePartPrefab: {fileID: 1000011210241306, guid: 8a2487c189a464148aadc3af2effa7c8, type: 3}
   explodeCount: 10
   minMagnitudeToExplode: 1
+--- !u!114 &-4464850647038942680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4680387959748524613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c94c13185d3944e93fb9f8172f0e89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Naranja
+--- !u!65 &4919054439456649003
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4680387959748524613}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08, y: 0.10817641, z: 0.08548489}
+  m_Center: {x: 0, y: 0.0021638274, z: -0.0018364042}
 --- !u!1001 &8286542851451541898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -312,35 +340,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9087563415836919188, guid: a794ac2cbc986fd46af02fbbe696b1d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0068494
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9087563415836919188, guid: a794ac2cbc986fd46af02fbbe696b1d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0024439
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9087563415836919188, guid: a794ac2cbc986fd46af02fbbe696b1d0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.090932
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9087563415836919188, guid: a794ac2cbc986fd46af02fbbe696b1d0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96924067
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 9087563415836919188, guid: a794ac2cbc986fd46af02fbbe696b1d0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.2461149
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 9087563415836919188, guid: a794ac2cbc986fd46af02fbbe696b1d0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9087563415836919188, guid: a794ac2cbc986fd46af02fbbe696b1d0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9087563415836919188, guid: a794ac2cbc986fd46af02fbbe696b1d0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -28.495
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 9087563415836919188, guid: a794ac2cbc986fd46af02fbbe696b1d0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
