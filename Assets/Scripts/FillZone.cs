@@ -7,7 +7,6 @@ public class FillZone : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log(other.name);
         //Si metes el cubo dentro de la zona...
         if (other.GetComponent<GlassFill>() != null)
         {
