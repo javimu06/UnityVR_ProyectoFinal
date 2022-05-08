@@ -7880,9 +7880,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87bd864959771ca4986a80c57019213d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxWobble: 0.03
-  WobbleSpeed: 1
-  Recovery: 1
+  MaxWobble: 6.2
+  WobbleSpeed: 15.4
+  Recovery: 2.77
 --- !u!135 &939982109
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8444,7 +8444,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -15605,6 +15605,26 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 82000013955136614, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82000013955136614, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: MaxDistance
+      value: 55.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 82000013955136614, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 82117e28122069f49b285ca62bb3a122, type: 3}
+    - target: {fileID: 82000013955136614, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82000013955136614, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 7556265835396251034, guid: 7f0771198462116469e22d1b8679ead2, type: 2}
     - target: {fileID: 2094266249996275902, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_Height
       value: 0.64
