@@ -4,16 +4,25 @@ using UnityEngine;
 
 public class GlassFill : MonoBehaviour
 {
-    // Start is called before the first frame update
     Material mt;
+    float amount = 0.5f;
+    int fillID;
     void Start()
     {
-        mt = this.GetComponent<Material>();
+        mt = GetComponent<MeshRenderer>().material;
+        //Guardamos el ID del Fill para no llamarlo todo el rato
+        fillID = Shader.PropertyToID("_Fill");
     }
 
-    // Update is called once per frame
     void Update()
     {
-        mt.shader.pro.FindPropertyIndex("fill") += 0.1;
+        mt.SetFloat(fillID, amount);
+    }
+    public void fillBottle()
+    {
+        amount += 0.005f;
+        if (amount >= 1)
+            //amount = 1;
+            amount = 0;
     }
 }
