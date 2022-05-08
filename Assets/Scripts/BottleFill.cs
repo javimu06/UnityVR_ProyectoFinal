@@ -16,10 +16,10 @@ public class BottleFill : MonoBehaviour
         Physics.Raycast(transform.position, transform.TransformDirection(Vector3.up), 10);
         Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.up), Color.red);
 
-        
-        //if ((targetForward.x >= 90 && targetForward.x <= 270) || (targetForward.z >= 90 && targetForward.x <= 270))
-        //    transform.GetChild(0).gameObject.SetActive(true);
-        //else
-        //    transform.GetChild(0).gameObject.SetActive(false);
+
+        if (transform.GetChild(0).transform.position.y<transform.position.y)
+            transform.GetChild(0).gameObject.SetActive(true);
+        else
+            transform.GetChild(0).gameObject.SetActive(false);
     }
 }
