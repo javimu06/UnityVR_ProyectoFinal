@@ -6,10 +6,11 @@ public class esnifada : MonoBehaviour
 {
 
     public GameObject head;
+    private AudioSource audi;
     // Start is called before the first frame update
     void Start()
     {
-        
+        audi = GetComponentInParent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -22,6 +23,8 @@ public class esnifada : MonoBehaviour
     {
         if (other.gameObject == head)
         {
+            Debug.Log("Esnifadota");
+            audi.Play();
             gameObject.SetActive(false);
         }
     }
