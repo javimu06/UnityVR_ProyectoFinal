@@ -271,7 +271,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Default_1
+  m_Name: Default_Borracho1
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: reggaeton
@@ -469,7 +469,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: ca6e55b818eadf94fad72ac9c27e6e67, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: c9bd0ad26f6a0954aaf6be2cc36ba9c9, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -545,7 +545,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: fc7b0b8342b6314439d9c637123ef197, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: c9bd0ad26f6a0954aaf6be2cc36ba9c9, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -716,7 +716,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 6e239aa5444925c478970587b7768efb, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: 470be9ec754c2b44b87784277fa77323, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -769,7 +769,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: ae2818aaeee7dc34c9b062d1bb605a32, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: 470be9ec754c2b44b87784277fa77323, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

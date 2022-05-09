@@ -271,7 +271,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Default_1
+  m_Name: Default_5
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: reggaeton
@@ -469,7 +469,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: ca6e55b818eadf94fad72ac9c27e6e67, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: 30ba92dd33a4fcf44940271cf69ac511, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -716,7 +716,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 6e239aa5444925c478970587b7768efb, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: e2ebe4fdf3186eb49afd9b49fc8ec5ad, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
