@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cubata
+  m_Name: Cubata 5
   m_Shader: {fileID: -6465566751694194690, guid: e46dff7c837625f4391d5fd9aae6564b, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON
   m_LightmapFlags: 4
@@ -39,7 +39,7 @@ Material:
     - _CastShadows: 1
     - _Cull: 0
     - _DstBlend: 0
-    - _Fill: 0.601
+    - _Fill: 0.636
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SrcBlend: 1
@@ -50,8 +50,8 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 0.03444286, g: 0.053176895, b: 0.16981131, a: 1}
-    - _TopColor: {r: 0.041295845, g: 0.07195357, b: 0.3018868, a: 1}
+    - _Color: {r: 0.735849, g: 0.70275897, b: 0.08677464, a: 1}
+    - _TopColor: {r: 1, g: 0.9321483, b: 0.3537736, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &6632094189794140794
 MonoBehaviour:
