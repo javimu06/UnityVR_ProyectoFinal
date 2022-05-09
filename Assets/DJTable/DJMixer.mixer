@@ -110,6 +110,8 @@ AudioMixerController:
     name: VolumeParam
   - guid: 5d9c623f48c7b6a45bf706c9edb66d13
     name: Pitch
+  - guid: ff7036274bc6f444b823b866c7d1d85f
+    name: Chorus
   - guid: 3b5c4e1deffd83645a3c281b5cf18754
     name: Highpass
   - guid: a6105be3b8466f840aaa392cc0b73d6e
@@ -170,6 +172,7 @@ AudioMixerSnapshotController:
     b6501d50be2c286408c40aef93edc2fd: 1
     2aeee48164e49b743bee8ef063a3ada7: 1
     a9ef39b186fd91f458a0e01dfc0a4610: 10
+    c48c112378a1be24f951a7c476f0f967: 1
     e00d6333d50d4964ca47e72fddbebd38: 32
     a6105be3b8466f840aaa392cc0b73d6e: 10
     12f96e14f4aabc7469744942b815f92e: 0.97
@@ -177,11 +180,13 @@ AudioMixerSnapshotController:
     390ad944747afc24cbdae958223bf67e: 23
     e493406480ce55140afb2a1e6ccd2359: 0.1
     8ad573050815f504690ddcfe596928d7: 1
+    ff7036274bc6f444b823b866c7d1d85f: 0.5
     18148f877ec56e744aefc5ee73ffdd7f: 1
     6ab8bcf7fe81ed7469b6a3cfbc945f5b: 1
     40190849697859c4aa1c555ee500b511: 1
     8f3bed5937cdeb441b67bc6d6d6ed3b8: 16
     019ee979e25d0dc4f9b61edbe435f6f4: 2
+    bb929db9487c2a1448a5382e6392525b: 1
     f70b471af75e6094fab3f51ad1b58868: 1
     d937092afa891dc4eb01110ae79d4d4c: 1
     c0e73e9a59a78fd45a8421cfdb31dbd3: -10000
@@ -192,8 +197,11 @@ AudioMixerSnapshotController:
     5543210c47ee54f4793d21d934159826: -7039
     6d3eee8c54010b84a86729ba8bb758f7: 0.48299998
     819fc0acf2098b745b9ba481574d5d3b: 5000
+    45c88b0d47f37744396384c4032d88b7: 1
     a8dbad0da498b27439bc667d0660fdcc: 0
     83a3f8ade987bbf4184f569fb107b01d: 976
+    162d24ddc563e9744a01f341ea5682cf: 1
+    48de3a4eca573a243a489c4b6a56833e: 0.502
     7566cebe4f930b34b9cd3019be739a7e: 16
     e16d55dea121229459f3ad07d0bbdb17: 22000
     dd30271f4fce50740acbd943257c5fdc: 0.168
@@ -213,6 +221,7 @@ AudioMixerGroupController:
   m_Pitch: 5d9c623f48c7b6a45bf706c9edb66d13
   m_Send: 00000000000000000000000000000000
   m_Effects:
+  - {fileID: 7891117093057484625}
   - {fileID: -4109038500947414769}
   - {fileID: -2142128182471340365}
   - {fileID: -4605229749331919943}
@@ -240,6 +249,36 @@ AudioMixerEffectController:
     m_GUID: a9a0ed829e2b83e4488f84e0a779b3fc
   - m_ParameterName: Max channels
     m_GUID: 6c919cacef93f2f45ba7ceed2dfe0c77
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &7891117093057484625
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 9a08e06f6f829074e813312740fa4a39
+  m_EffectName: Chorus
+  m_MixLevel: f02b5d8a2cce2d34d9e84b2fe0225b90
+  m_Parameters:
+  - m_ParameterName: Dry mix
+    m_GUID: ff7036274bc6f444b823b866c7d1d85f
+  - m_ParameterName: Wet mix tap 1
+    m_GUID: b6d42ed174a57c341aced72d775b87ee
+  - m_ParameterName: Wet mix tap 2
+    m_GUID: 168275e878bb18c4d878cc16ea5126b8
+  - m_ParameterName: Wet mix tap 3
+    m_GUID: 072f0a61efa5f504996449f4f2dd5c4e
+  - m_ParameterName: Delay
+    m_GUID: 211a796b9268b144e87587dd958c7dca
+  - m_ParameterName: Rate
+    m_GUID: ca92f7106af5ba24faffcec62663b54e
+  - m_ParameterName: Depth
+    m_GUID: bcce37852f1d2fd4b97a0622ac3bb5b8
+  - m_ParameterName: Feedback
+    m_GUID: 1a2c10c61aa44c44691422e4be73acf6
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
