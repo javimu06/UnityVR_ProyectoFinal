@@ -22,7 +22,6 @@ public class GlassFill : MonoBehaviour
     {
         amount += 0.005f;
         if (amount >= 1)
-            //amount = 1;
-            amount = 0;
+            amount = 1;
     }
 }
