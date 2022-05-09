@@ -9,6 +9,10 @@ public class DjButton : MonoBehaviour
     public AudioMixer djMixer;
     public AudioClip song;
     public float volume;
+    public string triggerName;
+
+    public AnimatorManager animatormanager;
+
     // Start is called before the first frame update
     public void DJputtonDown()
     {
@@ -20,5 +24,6 @@ public class DjButton : MonoBehaviour
     {
         audiosource.Stop();
         audiosource.PlayOneShot(song, volume);
+        animatormanager.playingAnim(triggerName);
     }
 }

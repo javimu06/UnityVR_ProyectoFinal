@@ -12,6 +12,13 @@ public class AnimatorManager : MonoBehaviour
         
     }
 
+    public void playingAnim(string triggName) {
+        for (int i = 0; i < anim1.Length; i++)
+        {
+            anim1[i].SetTrigger(triggName);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
